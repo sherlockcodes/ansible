@@ -1,0 +1,9 @@
+[all:vars]
+ansible_connection=ssh
+ansible_ssh_user=root
+
+[test]
+165.227.12.6
+
+[preprod]
+preprod-ws.eastus.cloudapp.azure.com

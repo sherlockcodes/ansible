@@ -1,0 +1,10 @@
+---
+- hosts: '{{ host }}'
+  remote_user: '{{ remote_user }}'
+  gather_facts: False
+  tasks:
+    - git:
+         repo: "https://{{ git_username }}:{{ git_password }}@{{ repo }}"
+         dest: "{{ repo_dir }}"
+         version: '{{ host }}'
+
