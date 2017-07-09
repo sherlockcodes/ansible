@@ -3,7 +3,7 @@ ansible_connection=ssh
 ansible_ssh_user=root
 
 [test]
-165.127.22.1
+*.*.*.*
 
 [preprod]
-165.211.4.150
+*.*.*.*

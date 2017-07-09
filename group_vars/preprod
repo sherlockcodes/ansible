@@ -1,5 +1,5 @@
-git_username: user_name
+git_username: username
 git_password: password
-repo: repo_link
-repo_dir: repo_location
-remote_user: remote_user_name
+repo: repo_url
+repo_dir: remote_directory
+remote_user: root

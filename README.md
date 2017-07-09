@@ -17,12 +17,16 @@ Playbooks are Ansible’s configuration, deployment, and orchestration language.
 
 Before proceeding to run, you may have to change some configuration in hosts, group_vars folder to make it for you. 
 
-
-## how to run
+After cloning ansible project, go to your code repository and do following.
 
 ```
-Command : ansible-playbook -i hosts tasks/git_pull.yml --extra-vars='host=test'
+mv .git/pre-push.sample .git/pre-push
+sudo emacs -nw .git/pre-push
+
 ```
+
+and copy the code in git_push.sh and save it. Now everytime you push it, it will pull in corresponding code repository.
+
 
 ## to do
 
